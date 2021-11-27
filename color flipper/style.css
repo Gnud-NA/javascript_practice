@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.backgroundColor-name {
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.changeColor {
+    padding: 8px 16px;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.changeColor:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
